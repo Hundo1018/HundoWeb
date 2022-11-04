@@ -17,8 +17,9 @@ import './registerServiceWorker'
 
 const app = createApp(App)
 
-registerPlugins()
 
 app
-  .use(vuetify)
-  .mount('#app')
+.use(vuetify)
+.mount('#app')
+
+registerPlugins()
