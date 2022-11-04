@@ -17,7 +17,7 @@ import './registerServiceWorker'
 
 const app = createApp(App)
 
-registerPlugins(app)
+registerPlugins()
 
 app
   .use(vuetify)
