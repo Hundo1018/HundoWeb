@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
+    "deploy":"",
     "dev": "vite",
     "preview": "vite preview"
 
