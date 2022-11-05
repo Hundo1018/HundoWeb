@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
-    "deploy":"",
+    "deploy": "",
     "dev": "vite",
     "preview": "vite preview"
-
   },
   "dependencies": {
     "@mdi/font": "5.9.55",

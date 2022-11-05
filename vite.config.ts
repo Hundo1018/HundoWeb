@@ -8,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  mode:"history",
   base:"https://hundo1018.github.io/HundoWeb/",
   plugins: [
     vue(),
